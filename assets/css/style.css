@@ -97,10 +97,16 @@ main {
     padding-right: 10px;
 }
 
+.aboutme {
+    height: fit-content;
+}
+
 .content {
     width: 900px;
     margin: 0 auto 30px auto;
     overflow: auto;
+    display: flex;
+    justify-content: space-around;
   }
 
 .content img {
@@ -116,4 +122,50 @@ main {
   float: left;
   width: 65%;
     
+}
+.work {
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    height: 100px;
+    width: 500px;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    
+}
+
+
+
+.box h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+#run-buddy {
+    background-image: url("../images/run-buddy.jpg");
+}
+
+#oop {
+    background-image: url("../images/objected-oriented.jpg");
+}
+
+#vending-machine {
+    background-image: url("../images/vending-machine.jpg");
+}
+
+#quidditch-game {
+    background-image: url("../images/quidditch-game.jpg");
+}
+
+#bank-management {
+    background-image: url("../images/atm-machine.jpg");
 }
