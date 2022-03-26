@@ -244,6 +244,9 @@ main {
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
    
+    .box {
+        margin: 20px 0 20px 0;
+    }
       
      
     }
@@ -298,10 +301,6 @@ main {
         border-right: none;
 
         
-    }
-
-    .box {
-        margin: 20px 0 20px 0;
     }
         
     }
