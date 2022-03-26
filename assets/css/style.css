@@ -7,18 +7,28 @@
 
 body {
     margin: 0;
+    background-color: #55a6e6;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #5b67ec;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/portfolio-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .header nav {
@@ -41,6 +51,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    text-shadow: 0 0 10px rgba(4, 62, 253, 0.5);
 }
 
 p {
@@ -53,6 +64,8 @@ p {
     background-image: url("../images/portfolio-background.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero-tag {
@@ -89,6 +102,7 @@ main {
     display: inline-flex;
     width: 200px;
     height: 200px;
+    border-radius: 15px;
 
 }
 
@@ -96,6 +110,8 @@ main {
     display: inline-flex;
     align-items: center;
     font-size: 32px;
+    color: #ffffff;
+    padding-left: 10px;
     
 }
 
@@ -128,7 +144,8 @@ main {
 
 .section-title {
     font-size: 48px;
-    border-right: 5px solid black;
+    color: #ffffff;
+    border-right: 5px solid rgb(255, 255, 255);
 
 }
 
@@ -139,6 +156,7 @@ main {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
 }
 
