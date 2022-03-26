@@ -74,63 +74,62 @@ main {
     flex-wrap: wrap;
 }
 
-.sidebar {
-    flex: .65;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding:40px;
-    height: 800px;
+.bio {
+    display: inline-flex;
 }
 
-.content {
-    flex: 4;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
+.bio h2 {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 71.96px;  
+}
+
+.bio img {
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+
+}
+
+.bio p {
+    display: inline-flex;
+    align-items: center;
+    font-size: 32px;
     
 }
+
+.aboutme {
+    display: inline-flex;
+    padding-left: 25px;
+
+}
+
+.projects {
+    display: inline-flex;
+    padding-top: 50px;
+}
+
+.projects h2 {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 82.65px; 
+}
+
+.buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
 
 .section-title {
     font-size: 48px;
     border-right: 5px solid black;
-    padding-right: 10px;
-}
 
-.aboutme {
-    height: fit-content;
-}
-
-.content {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    overflow: auto;
-    display: flex;
-    justify-content: space-around;
-  }
-
-.content img {
-    padding: 10px 0 0 0;
-   width: 200px;
-   height: 200px;
-   float: left;
-    
-}
-
-.content p {
-  padding: 35px;
-  float: left;
-  width: 65%;
-    
-}
-.work {
-    width: 100%;
-}
-
-.information {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .box {
@@ -142,7 +141,6 @@ main {
     border-radius: 10px;
     
 }
-
 
 
 .box h3 {
@@ -168,4 +166,23 @@ main {
 
 #bank-management {
     background-image: url("../images/atm-machine.jpg");
+}
+
+
+.socials {
+    display: inline-flex;
+    padding-top: 50px;
+}
+
+.socials h2 {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 30.82px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
