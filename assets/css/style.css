@@ -48,10 +48,11 @@ body {
     margin-left: 25px;
 }
 
-a {
+.header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     text-shadow: 0 0 10px rgba(4, 62, 253, 0.5);
+    padding: 10px 15px;
 }
 
 p {
@@ -66,6 +67,7 @@ p {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+    align-items: flex-start;
 }
 
 .hero-tag {
@@ -204,3 +206,87 @@ main {
     justify-content: space-between;
     width: 100%;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+      .header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: absolute;
+      }
+    
+      .header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      .header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      .header nav ul li a {
+        font-size: 20px;
+        color: #0207ff
+      }
+
+     
+    }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+   
+      
+     
+    }
+  
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    
+
+    .bio {
+        display: flex;
+        flex-direction: column
+    }
+    
+    
+    .bio h2 {
+        justify-content: center;
+        border-bottom: 5px solid #ffffff ;
+        padding-top: 50px;
+        border-right: none;
+
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+
+
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .projects h2 {
+        justify-content: center;
+        border-bottom: 5px solid #ffffff ;
+        border-right: none;
+
+        
+    }
+
+    .buttons {
+        padding-top: 20px;
+    }
+        
+    }
+      
