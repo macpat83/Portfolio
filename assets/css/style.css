@@ -84,10 +84,7 @@ p {
     text-decoration: none;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .bio {
     display: inline-flex;
@@ -247,13 +244,6 @@ main {
     .box {
         margin: 20px 0 20px 0;
     }
-      
-     
-    }
-  
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
 
     .header nav ul li {
         margin-left: none;
@@ -272,11 +262,14 @@ main {
         border-bottom: 5px solid #ffffff ;
         padding-top: 50px;
         border-right: none;
+        
 
     }
 
     .bio p {
+        display: flex;
         padding-left: none;
+        flex-wrap: wrap;
     }
 
     .aboutme {
@@ -285,6 +278,7 @@ main {
         align-items: center;
         padding-top: 20px;
         padding-left: none;
+        
 
 
     }
@@ -292,9 +286,8 @@ main {
     .projects {
         display: flex;
         flex-direction: column;
-        
     }
-
+    
     .projects h2 {
         justify-content: center;
         border-bottom: 5px solid #ffffff ;
@@ -302,6 +295,18 @@ main {
 
         
     }
+
+    .socials {
+        display: inline-flex;
+        width: auto;
+    }
+
         
     }
+  
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+  }
       
