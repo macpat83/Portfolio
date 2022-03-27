@@ -244,7 +244,7 @@ p {
     .box {
         margin: 20px 0 20px 0;
         height: 100px;
-        width: 300px;
+        width: 350px;
 
 
     }
@@ -257,7 +257,6 @@ p {
     .bio {
         display: flex;
         flex-direction: column;
-        
     }
     
     
