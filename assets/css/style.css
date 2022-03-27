@@ -243,10 +243,6 @@ p {
    
     .box {
         margin: 20px 0 20px 0;
-        height: 100px;
-        width: 100%;
-
-
     }
 
     .header nav ul li {
@@ -299,6 +295,7 @@ p {
 
     .buttons {
         justify-content: flex-start;
+        width: 100%;
     }
     .socials {
         display: flex;
