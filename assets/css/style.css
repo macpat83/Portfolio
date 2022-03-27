@@ -1,15 +1,16 @@
+/*universal style across all elements*/
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     
 }
 
+/*set background color of website*/
 body {
-    margin: 0;
     background-color: #55a6e6;
 }
 
+/*styles header, extended hero image into header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,12 +26,14 @@ body {
     background-position: 80%;
 }
 
+/*styles h1 header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+/*styles nav bar*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,15 +42,18 @@ body {
     font-size: 20px;
 }
 
+/*styles nav bar unordered list*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*styles nav bar unordered list*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*styles nav bar unordered list elements*/
 .header nav ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -55,14 +61,17 @@ body {
     padding: 10px 15px;
 }
 
+/*controls action when you hover over list elements*/
 .header nav ul li a:hover {
     background-color: #55a6e6;
 }
 
+/*sets font size on paragraph*/
 p {
     font-size: 16px;
 }
 
+/*sizes and positions hero image*/
 .hero {
     height: 250px;
     width: 100%;
@@ -74,12 +83,14 @@ p {
     align-items: flex-start;
 }
 
+/*controls position of hero tag */
 .hero-tag {
     display: flex;
     align-items: flex-end;
     height: 100%;
 }
 
+/*styles the text in the hero tag*/
 .hero-tag p {
     font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -89,19 +100,18 @@ p {
 }
 
 
-
+/*controls display type of the bio section*/
 .bio {
     display: inline-flex;
     padding-top: 50px;
 }
 
+/*adds padding to the header so the border lines up with other h2 headers*/
 .bio h2 {
-    display: inline-flex;
-    height: 100%;
-    align-items: center;
     padding-right: 71.96px;  
 }
 
+/*resizes and styles the image in the bio section*/
 .bio img {
     display: inline-flex;
     width: 200px;
@@ -110,6 +120,7 @@ p {
 
 }
 
+/*styles the paragraph in the bio section*/
 .bio p {
     display: inline-flex;
     align-items: center;
@@ -119,30 +130,33 @@ p {
     
 }
 
+/*places the img and paragraph inline with each other*/
 .aboutme {
     display: inline-flex;
     padding-left: 25px;
 
 }
 
+
+/*controls display type of the projects section*/
 .projects {
     display: inline-flex;
     padding-top: 50px;
 }
 
+/*adds padding to the header so the border lines up with other h2 headers*/
 .projects h2 {
-    display: inline-flex;
-    height: 100%;
-    align-items: center;
     padding-right: 82.65px; 
 }
 
+/*controls the position of the buttons*/
 .buttons {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+/*makes the first project larger than the others*/
 #run-buddy {
     height: 500px;
     width: 1000px;
@@ -150,14 +164,18 @@ p {
 }
 
 
-
+/*styles the section h2 elements to match each other*/
 .section-title {
     font-size: 48px;
     color: #ffffff;
     border-right: 5px solid rgb(255, 255, 255);
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
 
 }
 
+/*creates the button for the work area*/
 .box {
     height: 100px;
     width: 500px;
@@ -165,205 +183,222 @@ p {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin: 20px 0 20px 0;  
 }
 
+/*sets action when you hover over box items*/
 .box:hover {
     border-color:#ffffff;
     border-width: 5px;
   }
 
    
-
-
+  /*sytles h3 elements for all boxes*/
 .box h3 {
     font-size: 32px;
     color: #ffffff;
 }
 
+/*sets image for button*/
 #run-buddy {
     background-image: url("../images/run-buddy2.jpg");
 }
 
+/*sets image for button*/
 #oop {
     background-image: url("../images/objected-oriented.jpg");
 }
 
+/*sets image for button*/
 #vending-machine {
     background-image: url("../images/vending-machine.jpg");
 }
 
+/*sets image for button*/
 #quidditch-game {
     background-image: url("../images/quidditch-game.jpg");
 }
 
+/*sets image for button*/
 #bank-management {
     background-image: url("../images/atm-machine.jpg");
 }
 
-
+/*controls display type of the socials section*/
 .socials {
     display: inline-flex;
     padding-top: 50px;
 }
 
+/*adds padding to the header so the border lines up with other h2 headers*/
 .socials h2 {
-    display: inline-flex;
-    height: 100%;
-    align-items: center;
-    padding-right: 30.82px;
+    padding-right: 30.5px;
 }
 
+/*controls display type of the icons section*/
 .icons {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
+/*sets action when you hover over icon items*/
 .icons:hover {
     background-color: #ffffff;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-      .header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: absolute;
-      }
+      
+/*changes header position on smaller screen size*/
+.header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: absolute;
+}
     
-      .header h1 {
-        width: 100%;
-        text-align: center;
+/*changes header h1 position on smaller screen size*/
+.header h1 {
+    width: 100%;
+    text-align: center;
         
-      }
+}
     
-      .header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-        color: #55a6e6;
-      }
+/*changes header nav position on smaller screen size*/
+.header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    color: #55a6e6;
+}
 
       
-    
-      .header nav ul li a {
-        font-size: 20px;
-      }
+/*changes font size of nav elements on smaller screen size*/    
+.header nav ul li a {
+    font-size: 20px;
+}
 
-      .hero, .hero-tag {
+/*makes hero elements fit the screen n smaller screen size*/
+.hero, .hero-tag {
           width: 100%;
-      }
+}
 
-      #run-buddy {
-         height: 100px;
-         width: 500px
-      }
+/*adjust the run-buddy project on smaller screen size*/      
+#run-buddy {
+    height: 100px;
+    width: 500px
+}
 
      
-    }
+}
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-   
-    .box {
-        margin: 20px 0 20px 0;
-        width: 435px;
+  
+ /*adjust the box elements to fit the smaller screen8*/   
+.box {
+    margin: 20px 0 20px 0;
+    width: 435px;
     }
 
-    #run-buddy {
-         height: 100px;
-         width: 410px
-      }
+/*adjust the run-buddy project on smaller screen size*/    
+#run-buddy {
+     height: 100px;
+     width: 410px
+}
 
-    .header nav ul li {
-        margin-left: none;
-    }
+/*remove the left margin that is not needed on this screen size*/
+.header nav ul li {
+    margin-left: none;
+}
 
+ /*change display to column to acclimate the smaller screen size*/   
+.bio {
+    display: flex;
+    flex-direction: column;
+}
     
-    .bio {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    .bio h2 {
+ /*changed the h2 headers to fit screen*/
+ .section-title {
+    justify-content: center;
+    border-bottom: 5px solid #ffffff ;
+    border-right: none;
+}
+
+/*adding padding to header for spacing*/
+.bio h2 {
+    padding-top: 50px; 
+}
+
+/*centers bio img for smaller screen*/    
+.bio img {
         justify-content: center;
-        border-bottom: 5px solid #ffffff ;
-        padding-top: 50px;
-        border-right: none;
+}
+
+/*styles bio paragraph to fit screen*/
+.bio p {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+/*adjust display of the aboutme section to fit smaller display*/    
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+/*adjust display of projects section for smaller screen*/
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+    
+/*adjust display of projects header for smaller screen*/
+.projects h2 {
+    padding-top: 20px;
+}
+
+/*adjust display of buttons*/
+.buttons {
+    justify-content: flex-start;
+}
+
+/*adjust display of the socials section for smaller screen*/   
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+/*added padding for spacing*/
+.socials h2 {
+    padding-top: 20px;
+}
+
+ /*changed icon arrangement for smaller screen*/   
+.icons {
+    padding-top: 20px;
+    justify-content: center;
+}
+
         
-
-    }
-
-    .bio img {
-        justify-content: center;
-    }
-
-    .bio p {
-        display: flex;
-        padding-left: 0;
-        flex-wrap: wrap;
-    }
-
-    .aboutme {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 20px;
-        padding-left: 0;
-        
-
-
-    }
-
-    .projects {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .projects h2 {
-        justify-content: center;
-        border-bottom: 5px solid #ffffff ;
-        border-right: none;
-    }
-
-    .buttons {
-        justify-content: flex-start;
-    }
-
-    
-    .socials {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .socials h2 {
-        justify-content: center;
-        border-bottom: 5px solid #ffffff ;
-        padding-top: 20px;
-        border-right: none;
-    }
-
-    .icons {
-        padding-top: 20px;
-        justify-content: center;
-    }
-
-        
-    }
+}
   
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
 
-    .box {
-        width: 358px;
-    }
+/*change box size for smaller screen*/
+.box {
+    width: 358px;
+}
 
-    #run-buddy {
+/*change run-buddy size for smaller screen*/    
+#run-buddy {
         width: 358px;
      }
 
