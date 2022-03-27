@@ -92,6 +92,7 @@ p {
 
 .bio {
     display: inline-flex;
+    padding-top: 50px;
 }
 
 .bio h2 {
