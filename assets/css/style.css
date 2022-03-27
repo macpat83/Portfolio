@@ -244,7 +244,8 @@ p {
     .box {
         margin: 20px 0 20px 0;
         height: 100px;
-        width: 325px;
+        width: 300px;
+
 
     }
 
@@ -253,7 +254,7 @@ p {
     }
 
     
-.bio {
+    .bio {
         display: flex;
         flex-direction: column;
         
@@ -295,10 +296,11 @@ p {
         justify-content: center;
         border-bottom: 5px solid #ffffff ;
         border-right: none;
-
-        
     }
 
+    .buttons {
+        justify-content: flex-start;
+    }
     .socials {
         display: flex;
         flex-direction: column;
@@ -314,6 +316,7 @@ p {
     .icons {
         padding-top: 20px;
         justify-content: space-evenly;
+        width: fit-content;
     }
 
         
