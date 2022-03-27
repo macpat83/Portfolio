@@ -55,6 +55,10 @@ body {
     padding: 10px 15px;
 }
 
+.header nav ul li a:hover {
+    background-color: #55a6e6;
+}
+
 p {
     font-size: 16px;
 }
@@ -138,6 +142,11 @@ p {
     justify-content: space-evenly;
 }
 
+#run-buddy {
+    height: 500px;
+    width: 1000px;
+    background-size: auto;
+}
 
 
 
@@ -157,7 +166,15 @@ p {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
+    
 }
+
+.box:hover {
+    border-color:#ffffff;
+    border-width: 5px;
+  }
+
+   
 
 
 .box h3 {
@@ -166,7 +183,7 @@ p {
 }
 
 #run-buddy {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/run-buddy2.jpg");
 }
 
 #oop {
@@ -204,6 +221,10 @@ p {
     width: 100%;
 }
 
+.icons:hover {
+    background-color: #ffffff;
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
       .header {
@@ -235,6 +256,11 @@ p {
           width: 100%;
       }
 
+      #run-buddy {
+         height: 100px;
+         width: 500px
+      }
+
      
     }
   
@@ -245,6 +271,11 @@ p {
         margin: 20px 0 20px 0;
         width: 410px;
     }
+
+    #run-buddy {
+         height: 100px;
+         width: 410px
+      }
 
     .header nav ul li {
         margin-left: none;
@@ -330,5 +361,9 @@ p {
     .box {
         width: 358px;
     }
+
+    #run-buddy {
+        width: 358px;
+     }
 
 }
