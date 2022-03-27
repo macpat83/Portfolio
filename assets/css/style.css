@@ -243,6 +243,9 @@ p {
    
     .box {
         margin: 20px 0 20px 0;
+        height: 100px;
+        width: 325px;
+
     }
 
     .header nav ul li {
@@ -297,8 +300,20 @@ p {
     }
 
     .socials {
-        display: inline-flex;
-        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socials h2 {
+        justify-content: center;
+        border-bottom: 5px solid #ffffff ;
+        padding-top: 20px;
+        border-right: none;
+    }
+
+    .icons {
+        padding-top: 20px;
+        justify-content: space-evenly;
     }
 
         
