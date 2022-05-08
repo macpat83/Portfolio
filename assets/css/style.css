@@ -157,7 +157,7 @@ p {
 }
 
 /*makes the first project larger than the others*/
-#run-buddy {
+#musitory {
     height: 500px;
     width: 1000px;
     background-size: auto;
@@ -201,6 +201,11 @@ p {
 }
 
 /*sets image for button*/
+
+#musitory {
+    background-image: url("../images/youarewhatyoulistentoo.jpg");
+    background-size: contain;
+}
 #run-buddy {
     background-image: url("../images/run-buddy2.jpg");
 }
