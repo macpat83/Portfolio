@@ -11,7 +11,7 @@ body {
 }
 
 /*styles header, extended hero image into header*/
-.header {
+/* .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,47 +24,47 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-}
+} */
 
 /*styles h1 header*/
-.header h1 {
+/* .header h1 {
     display: inline-block;
     font-size: 48px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
+} */
 
 /*styles nav bar*/
-.header nav {
+/* .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+} */
 
 /*styles nav bar unordered list*/
-.header nav ul {
-    list-style-type: none;
-}
+/* .header nav ul {
+    list-style-type: none; */
+/* } */
 
 /*styles nav bar unordered list*/
-.header nav ul li {
+/* .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-}
+    margin-left: 25px; */
+/* } */
 
 /*styles nav bar unordered list elements*/
-.header nav ul li a {
+/* .header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     text-shadow: 0 0 10px rgba(4, 62, 253, 0.5);
     padding: 10px 15px;
-}
+} */
 
 /*controls action when you hover over list elements*/
-.header nav ul li a:hover {
+/* .header nav ul li a:hover {
     background-color: #55a6e6;
-}
+} */
 
 /*sets font size on paragraph*/
 p {
@@ -73,31 +73,31 @@ p {
 
 /*sizes and positions hero image*/
 .hero {
-    height: 250px;
-    width: 100%;
+    /* height: 250px;
+    width: 100%; */
     background-image: url("../images/portfolio-background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 /*controls position of hero tag */
-.hero-tag {
+/* .hero-tag {
     display: flex;
     align-items: flex-end;
     height: 100%;
-}
+} */
 
 /*styles the text in the hero tag*/
-.hero-tag p {
+/* .hero-tag p {
     font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     color:#ffffff;
     text-decoration: none;
-}
+} */
 
 
 /*controls display type of the bio section*/
