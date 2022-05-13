@@ -107,9 +107,9 @@ p {
 }
 
 /*adds padding to the header so the border lines up with other h2 headers*/
-.bio h2 {
+/* .bio h2 {
     padding-right: 71.96px;  
-}
+} */
 
 /*resizes and styles the image in the bio section*/
 .bio img {
@@ -124,7 +124,7 @@ p {
 .bio p {
     display: inline-flex;
     align-items: center;
-    font-size: 32px;
+    font-size: 24px;
     color: #ffffff;
     padding-left: 10px;
     
@@ -168,7 +168,7 @@ p {
 .section-title {
     font-size: 48px;
     color: #ffffff;
-    border-right: 5px solid rgb(255, 255, 255);
+    /* border-right: 5px solid rgb(255, 255, 255); */
     display: inline-flex;
     height: 100%;
     align-items: center;
