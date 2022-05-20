@@ -7,7 +7,8 @@
 
 /*set background color of website*/
 body {
-    background-color: #55a6e6;
+    background: rgb(148,148,142);
+    background: linear-gradient(90deg, rgb(2, 7, 29) 0%, rgba(2, 1, 73, 0.591) 39%, rgba(113, 113, 165, 0.552) 100%);
 }
 
 /*styles header, extended hero image into header*/
@@ -160,7 +161,7 @@ p {
 #musitory {
     height: 500px;
     width: 1000px;
-    background-size: auto;
+    /* background-size: auto; */
 }
 
 
@@ -168,7 +169,7 @@ p {
 .section-title {
     font-size: 48px;
     color: #ffffff;
-    /* border-right: 5px solid rgb(255, 255, 255); */
+    border-right: 5px solid rgb(255, 255, 255);
     display: inline-flex;
     height: 100%;
     align-items: center;
@@ -178,7 +179,7 @@ p {
 /*creates the button for the work area*/
 .box {
     height: 100px;
-    width: 500px;
+    width: 400px;
     background-size: cover;
     border-style: solid;
     border-width: 1px;
@@ -205,6 +206,11 @@ p {
 #musitory {
     background-image: url("../images/youarewhatyoulistentoo.jpg");
     background-size: contain;
+}
+
+#musitory h3 {
+    font-size: 32px;
+    color: #ffffff;
 }
 #run-buddy {
     background-image: url("../images/run-buddy2.jpg");
@@ -254,157 +260,157 @@ p {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) { */
       
 /*changes header position on smaller screen size*/
-.header {
+/* .header {
     padding-bottom: 0;
     justify-content: center;
     position: absolute;
-}
+} */
     
 /*changes header h1 position on smaller screen size*/
-.header h1 {
+/* .header h1 {
     width: 100%;
     text-align: center;
         
-}
+} */
     
 /*changes header nav position on smaller screen size*/
-.header nav ul {
+/* .header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
     color: #55a6e6;
-}
+} */
 
       
 /*changes font size of nav elements on smaller screen size*/    
-.header nav ul li a {
+/* .header nav ul li a {
     font-size: 20px;
-}
+} */
 
 /*makes hero elements fit the screen n smaller screen size*/
-.hero, .hero-tag {
+/* .hero, .hero-tag {
           width: 100%;
-}
+} */
 
 /*adjust the run-buddy project on smaller screen size*/      
-#run-buddy {
+/* #run-buddy {
     height: 100px;
     width: 500px
 }
 
      
-}
+} */
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) { */
   
  /*adjust the box elements to fit the smaller screen8*/   
-.box {
+/* .box {
     margin: 20px 0 20px 0;
     width: 435px;
-    }
+    } */
 
 /*adjust the run-buddy project on smaller screen size*/    
-#run-buddy {
+/* #run-buddy {
      height: 100px;
      width: 410px
-}
+} */
 
 /*remove the left margin that is not needed on this screen size*/
-.header nav ul li {
+/* .header nav ul li {
     margin-left: none;
-}
+} */
 
  /*change display to column to acclimate the smaller screen size*/   
-.bio {
+/* .bio {
     display: flex;
     flex-direction: column;
-}
+} */
     
  /*changed the h2 headers to fit screen*/
- .section-title {
+ /* .section-title {
     justify-content: center;
     border-bottom: 5px solid #ffffff ;
     border-right: none;
-}
+} */
 
 /*adding padding to header for spacing*/
-.bio h2 {
+/* .bio h2 {
     padding-top: 50px; 
-}
+} */
 
 /*centers bio img for smaller screen*/    
-.bio img {
+/* .bio img {
         justify-content: center;
-}
+} */
 
 /*styles bio paragraph to fit screen*/
-.bio p {
+/* .bio p {
     display: flex;
     padding-left: 0;
     flex-wrap: wrap;
-}
+} */
 
 /*adjust display of the aboutme section to fit smaller display*/    
-.aboutme {
+/* .aboutme {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
     padding-left: 0;
-}
+} */
 
 /*adjust display of projects section for smaller screen*/
-.projects {
+/* .projects {
     display: flex;
     flex-direction: column;
-}
+} */
     
 /*adjust display of projects header for smaller screen*/
-.projects h2 {
+/* .projects h2 {
     padding-top: 20px;
-}
+} */
 
 /*adjust display of buttons*/
-.buttons {
+/* .buttons {
     justify-content: flex-start;
-}
+} */
 
 /*adjust display of the socials section for smaller screen*/   
-.socials {
+/* .socials {
     display: flex;
     flex-direction: column;
-}
+} */
 
 /*added padding for spacing*/
-.socials h2 {
+/* .socials h2 {
     padding-top: 20px;
-}
+} */
 
  /*changed icon arrangement for smaller screen*/   
-.icons {
+/* .icons {
     padding-top: 20px;
     justify-content: center;
 }
 
         
-}
+} */
   
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+  /* @media screen and (max-width: 575px) { */
 
 /*change box size for smaller screen*/
-.box {
+/* .box {
     width: 358px;
-}
+} */
 
 /*change run-buddy size for smaller screen*/    
-#run-buddy {
+/* #run-buddy {
         width: 358px;
      }
 
-}
+} */
