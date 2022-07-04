@@ -160,8 +160,8 @@ p {
 /*makes the first project larger than the others*/
 #musitory {
     height: 500px;
-    width: 1000px;
-    /* background-size: auto; */
+    width: 850px;
+    background-size: cover;
 }
 
 
@@ -212,6 +212,12 @@ p {
     font-size: 32px;
     color: #ffffff;
 }
+
+/*sets image for button*/
+#musiposium {
+    background-image: url("../images/musiposium.jpg");
+}
+
 #run-buddy {
     background-image: url("../images/run-buddy2.jpg");
 }
@@ -231,10 +237,7 @@ p {
     background-image: url("../images/quidditch-game.jpg");
 }
 
-/*sets image for button*/
-#bank-management {
-    background-image: url("../images/atm-machine.jpg");
-}
+
 
 /*controls display type of the socials section*/
 .socials {
